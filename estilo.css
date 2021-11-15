@@ -1,0 +1,155 @@
+*{
+margin: 0%;
+padding: 0%;}
+
+body{
+background-color: black;
+}
+
+#displayRow{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+p{
+text-align: center;
+font-size:15px;
+margin-bottom: 0%;
+}
+
+aside{
+border: 5px solid gray;
+border-style: inset;
+
+}
+
+.hUno{
+color: whitesmoke;
+font-weight: bold;
+background-image: linear-gradient(black, #052929, black);;
+font-size: 40px;
+font-style: italic;
+}
+
+.tabla__titulo{
+text-align: center;
+color: whitesmoke;
+font-weight: bold;
+}
+
+td{
+text-align: center;
+}
+
+.header{
+    background-image: url(images/header.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: black ;
+    height: auto;
+padding: 2%;
+
+}
+
+.frase{
+    color: white;
+    font-weight: bold;
+    font-family: "gudea", sans-serif;
+    font-size: 25px;
+    text-shadow: #e0e0e0 1px 1px 0, 4px 4px 3px #0C0503;
+    text-align: left;
+}
+
+#frase{
+    color: rgb(225, 231, 136);
+    font-weight: bold;
+    font-family: "gudea", sans-serif;
+    font-size: 18px;
+    text-shadow: #e0e0e0 1px 1px 0, 4px 4px 3px #0C0503;
+    text-align: left;
+}
+
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important}
+
+
+#ancho{
+width: 50%;
+justify-self: center;
+align-self: center;
+margin-top: 2%;
+}
+
+#centrar{
+text-align: center;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+}
+
+.grilla{
+display: grid;
+height: auto;
+grid-template-columns: 65% 35%;
+grid-template-rows: 100%;
+grid-template-areas: 
+                    "contenido tabla";
+;
+}
+
+.contenido{
+grid-area: contenido;
+background-image: linear-gradient(black, #052929, black);
+}
+
+.tabla{
+border: 5px solid gray;
+border-style: inset;
+border-radius: 10px;
+grid-area: tabla;
+background-color: black;
+}
+
+#monto{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.card-text{
+text-align: left;
+}
+
+#btnGeneral{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.parrafoTd{
+font-size: 14px;
+}
+
+.imgTd{
+width: 80%;
+}
+
+.montoTotal{
+display: flex;
+justify-content: stretch;
+margin: 0%;
+padding: 0%;
+text-align: center;
+}

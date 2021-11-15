@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> La Mandrágora Libros - Novelas, Antologías de cuentos y otros libros</title>
+    <link rel="shortcut icon" href="#" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">La Mandrágora</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Catálogo</a>
+        </li>
+ <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Carrito de compras</a>
+        </li>
+  <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+        </li>
+ <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contáctenos</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Ingrese su búsqueda" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<header class="header">
+<figure class="text-center" id="margin">
+  <blockquote class="blockquote" id="margin">
+    <p class="frase">Muchos dicen que es un animal, pero no es así. Es un pensamiento, que crece allí, donde no hay tierra ni semilla: un pensamiento que brotó de lo que es eternamente estéril y -ahora- asume formas extrañas que la vida no posee. Esta es la razón por la que nadie puede describir a este ser, porque es como la nada, indescriptible ”.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer" id="frase">
+    Hanz Heinz Ewers en <cite title="Source Title">Alraune (1911)</cite>
+  </figcaption>
+</figure>
+</header>
+
+<main class="grilla">
+
+<div class="tabla"> 
+
+<table class="table table-dark table-striped">
+<h3 class="tabla__titulo">Carrito de compras</h3>
+<thead>
+<tr>
+<td>Producto</td>
+<td>Titulo</td>
+<td>Precio</td>
+<td>Cant.</td>
+<td></td>
+<td></td>
+</tr>
+</thead>
+<div id="btnGeneral"> 
+<button class="btn btn-primary">Procesar compra</button>
+<button class="btn btn-danger" id="vaciarCarrito">Vaciar carrito</button>
+</div>
+<tbody id="tabla-contenido">
+
+
+
+
+</tbody>
+<tr class="montoTotal">
+<td>Monto total:</td>
+<td id="monto"></td>
+</tr>
+</table>
+
+</div>
+
+<div class="contenido">
+
+<p class="hUno">Novelas más vendidas del mes</p>
+
+<section id="displayRow">
+
+
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/laMandragora.jpg" class="card-img-top" id="ancho" alt="La Mandrágona">
+  <div class="card-body">
+    <h5 class="card-title" id="producto">La Mandrágora</h5>
+    <p class="card-text">Un científico, el profesor Brinken, interesado en las
+    leyes de la herencia, impregna una prostituta en un laboratorio con el semen de un asesino ahorcado. 
+    La prostituta concibe una niña que no tiene ningún concepto del amor, a quien el profesor adopta.</p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+</div>
+
+</div>
+
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/nombreDeLaRosa.jpg" class="card-img-top" id="ancho" alt="El nombre de la rosa">
+  <div class="card-body">
+    <h5 class="card-title" id="producto">El nombre de la rosa</h5>
+    <p class="card-text">Ambientada en el turbulento ambiente religioso del siglo XIV, la novela narra la 
+    investigación que realizan fray Guillermo de Baskerville y su pupilo Adso de Melk alrededor de una misteriosa 
+    serie de crímenes que suceden en una abadía de Italia.</p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/kafkaOrilla.jpg" class="card-img-top"  id="ancho" alt="Kafka en la orilla">
+  <div class="card-body">
+    <h5 class="card-title">Kafka en la orilla</h5>
+    <p class="card-text">Kafka en la orilla traza dos historias paralelas: Por un lado, cuenta la 
+    vida de un joven de 15 años, Kafka Tamura, que decide fugarse de casa porque odia a 
+    su padre, y de alguna manera espera encontrar en la huida a su madre, que lo abandonó a los 4 años.</p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/dracula.jpg" class="card-img-top" id="ancho" alt="Dracula">
+  <div class="card-body">
+    <h5 class="card-title">Dracula</h5>
+    <p class="card-text">Cuando Jonathan Harker viajó a Transilvania, nunca 
+    imaginó el peligro que corría. Su cliente, el conde Drácula, lo mantiene prisionero
+    y Harker adivina sus oscuros propósitos: viajar a Londres para sembrar el terror y saciar su apetito de sangre.</p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>    
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+</section>
+
+<p class="hUno">Lo más leído de "GOTICO" + "SOBRENATURAL"</p>
+
+<section id="displayRow">
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/quiroga.jpg" class="card-img-top" id="ancho" alt="Cuentos de Amor Locura y Muerte">
+  <div class="card-body">
+    <h5 class="card-title">Cuentos de amor, locura y muerte</h5>
+    <p class="card-text">
+    Cuentos de amor de locura y de muerte es un libro de cuentos de Horacio Quiroga publicado en 1917 por la
+    "Sociedad Cooperativa Editorial Limitada" de Buenos Aires. La primera publicación incluye 18 relatos.</p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>    
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/elGolem.jpg" class="card-img-top" id="ancho" alt="El Golem">
+  <div class="card-body">
+    <h5 class="card-title">El Golem</h5>
+    <p class="card-text">
+    El Golem, de Gustav Meyrink, tiene su origen en un conjunto de leyendas de la Cábala judía sobre la 
+    creación artificial de vida mediante el poder evocador de las letras. 
+    El Golem se erige como una figura que anuncia la guerra y la destrucción.
+    </p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>    
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/frankestein.jpg" class="card-img-top" id="ancho" alt="Frankestein">
+  <div class="card-body">
+    <h5 class="card-title">Frankestein</h5>
+    <p class="card-text">
+      Frankenstein es una historia macabra en la que Víctor, un joven ávido de conocimientos científicos, 
+      se obsesiona por lograr el mayor reto posible en el mundo científico: dar vida a un cuerpo muerto.
+    </p>
+    <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>    
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card" id="centrar" style="width: 18rem;">
+  <img src="images/elMonje.jpg" class="card-img-top" id="ancho" alt="El monje">
+  <div class="card-body">
+    <h5 class="card-title">El monje</h5>
+    <p class="card-text">
+      La novela nos presenta a un monje español, Ambrosio, quien es tentado 
+      por el demonio bajo la apariencia de la doncella Matilde. 
+      Finalmente, Ambrosio, condenado a morir en manos de la 
+      Inquisición, escapa al castigo a costa de vender su alma.
+    </p>
+        <div id="monto">
+        <p>$</p>
+        <h6>860</h6>
+    </div>    
+    <a href="#" class="btn btn-primary botonComprar" onclick="" id="#">Comprar</a>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+</section>
+
+</div>
+
+</main>
+
+<footer class="text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3">
+                <h5>Sobre La Mandrágora - Libros</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <p class="mb-0">
+                    Somos una Cooperativa de trabajo que se dedica a la comercializar libros de género gótico y sobrenatural.
+                </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                <h5>Menú de navegación</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Catálogo</a></li>
+                    <li><a href="">Carrito de Compras</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Contáctenos</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <h5>Sitios de interés</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Mercado Libre</a></li>
+                    <li><a href="">Amazon</a></li>
+                    <li><a href="">Ebay</a></li>
+                    <li><a href="">Alibaba</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h5>Contacto</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-home mr-2"></i> La Mandrágona S.A.</li>
+                    <li><i class="fa fa-envelope mr-2"></i> lamandragoralibros@librerias.com</li>
+                    <li><i class="fa fa-phone mr-2"></i> + 5411 142468642</li>
+                </ul>
+            </div>
+            <div class="col-12 copyright mt-3">
+                <p class="float-left">
+                    <a href="#">Back to top</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
