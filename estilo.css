@@ -1,0 +1,235 @@
+/*/////////////// SELECTORES GENERALES ///////////////*/
+
+*{
+margin: 0%;
+padding: 0%;}
+
+body{
+background-color: orange;
+}
+
+p{
+text-align: center;
+font-size:15px;
+margin-bottom: 0%;
+}
+
+#ancho{
+width: 50%;
+justify-self: center;
+align-self: center;
+margin-top: 3%;
+}
+
+.centrarElementos{
+margin-top: 1%;
+margin-bottom: 1%;
+margin-left: 0%;
+margin-right: 0%;
+padding-right: 0%;
+}
+
+.card-text{
+text-align: left;
+}
+
+.margen{
+margin-top: 3%;
+}
+
+#index_margenes{
+padding-left: 3%;
+padding-right: 3%;
+text-align: center;
+}
+
+#centrar{
+text-align: center;
+display: flex;
+justify-content: center;
+align-content: center;
+justify-items: center;
+}
+
+/*////////// BOTON AJAX ////////////////////*/
+
+.ajax{
+text-align: center;
+}
+
+.btn3{
+text-align: center;
+}
+
+.container{
+padding: 0%;
+margin: 0%;
+}
+
+.pInferior{
+font-weight: bold;
+font-size: 18px;
+font-style:italic;
+color: rgb(3, 61, 3);
+margin-top: 3%;
+background-color: rgb(101, 179, 231);
+}
+
+/*/////// HEADER //////////*/
+
+.hUno{
+color: whitesmoke;
+font-weight: bold;
+background-image: linear-gradient(rgb(180, 70, 70), #ca8b50, rgb(177, 51, 51));
+font-size: 40px;
+font-style: italic;
+text-shadow: 2px 2px 2px #1F1924;
+}
+
+.header{
+    background-image: url(images/header.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: black ;
+    height: auto;
+    padding: 2%;
+
+}
+
+.frase{
+    font-family: "gudea", sans-serif;
+    text-shadow: #e0e0e0 1px 1px 0, 4px 4px 3px #0C0503;
+    text-align: left;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#frase{
+    color: rgb(225, 231, 136);
+    font-weight: bold;
+    font-family: "gudea", sans-serif;
+    font-size: 18px;
+    text-shadow: #e0e0e0 1px 1px 0, 4px 4px 3px #0C0503;
+    text-align: left;
+}
+
+/*////// CARRITO DE COMPRAS - JQUERY /////*/
+
+aside{
+border: 5px solid gray;
+border-style: inset;
+}
+
+.tabla__titulo{
+text-align: center;
+color: rgb(211, 212, 211);
+font-weight: bold;
+text-shadow: 2px 2px 2px #1F1924;
+}
+
+td{
+text-align: center;
+}
+
+#monto{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.parrafoTd{
+font-size: 14px;
+}
+
+.imgTd{
+width: 80%;
+}
+
+.montoTotal{
+display: flex;
+flex-direction: row;
+width: 90%;
+margin: 0%;
+padding: 0%;
+text-align: center;
+}
+
+/*/////////// FOOTER /////////////*/
+
+footer {
+    height: auto;
+    background: #343a40;
+    padding: 40px;
+}
+
+footer a {
+    color: #f8f9fa!important}
+
+/*///////////////// MEDIA QUERIES /////////////////////////////////*/
+
+@media only screen and (max-width: 600px){
+
+.grilla{
+display: grid;
+height: 3700px;
+grid-template-columns: 100%;
+grid-template-rows: 81% 5% 14%;
+grid-template-areas: 
+                    "contenido" 
+                    "tabla"
+                    "footer";
+}
+
+.contenido{
+height: auto;
+grid-area: contenido;
+background-image: linear-gradient(orange, yellow, orange);
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.tabla{
+height: auto;
+border: 5px solid rgb(173, 57, 57);
+border-style: inset;
+border-radius: 10px;
+grid-area: tabla;
+background-color: rgb(196, 144, 144);
+}
+
+.footer{
+height: auto;
+grid-area: footer;
+}
+
+}
+
+@media only screen and (min-width: 601px) {
+
+.grilla{
+display: grid;
+height: auto;
+grid-template-columns: 65% 35%;
+grid-template-rows: 100%;
+grid-template-areas: 
+                    "contenido tabla";
+;
+}
+
+.contenido{
+grid-area: contenido;
+background-image: linear-gradient(orange, yellow, orange);
+padding-top: 2%;
+padding-bottom: 4%;
+}
+
+.tabla{
+border: 5px solid rgb(173, 57, 57);
+border-style: inset;
+border-radius: 10px;
+grid-area: tabla;
+background-color: rgb(196, 144, 144);
+}
+}

@@ -1,0 +1,6 @@
+[
+    { "id": 1, "nombre": "El monje", "autor": "Matthew Lewis", "ruta": "images/elMonje.jpg" },
+    { "id": 2, "nombre": "El Golem", "autor": "Gustav Meyrink", "ruta": "images/elGolem.jpg" },
+    { "id": 3, "nombre": "Cuentos de amor, locura...", "autor": "Horacio Quiroga", "ruta": "images/quiroga.jpg" },
+    { "id": 4, "nombre": "Frankestein", "autor": "Mary Shelley", "ruta": "images/frankestein.jpg" }
+]
